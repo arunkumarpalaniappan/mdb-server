@@ -27,7 +27,7 @@ Collection Name: `metadata`
 `/movies` - `GET` - `Authentication : false`
 
 returns array of first 20 movies
-##### Response Contains  `_id,original_title,poster_path,spoken_languages`
+##### Response Contains  `_id,genres,original_title,poster_path,spoken_languages`
 ###### For next set, add ?p=2 and so on to the request URL
 ###### Eg: `/movies?p=3`
 
