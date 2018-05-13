@@ -15,5 +15,13 @@ module.exports = [
             handler: movies.get,
             auth: false
         }
+    },
+    {
+        path: '/search',
+        method: 'GET',
+        config: {
+            handler: movies.search,
+            auth: false
+        }
     }
 ];

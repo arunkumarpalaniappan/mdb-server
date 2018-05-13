@@ -23,3 +23,14 @@ exports.get = function () {
             });
     });
 };
+
+exports.search = function () {
+    return new Promise((resolve,reject) => {
+        movies.search.call(this).then(response => {
+            resolve(response);
+        })
+        .catch(error => {
+            reject(error);
+        });
+    })
+}
