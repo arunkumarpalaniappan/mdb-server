@@ -21,7 +21,7 @@ exports.get = function (request, reply) {
 };
 
 exports.search = function (request, reply) {
-    const params = request.params;
+    const params = request.query;
     return Movies.search.call(params).then(function(movies){
         return movies;
     }).catch(function(err){
