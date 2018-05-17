@@ -27,6 +27,7 @@
     "mongodb": "^3.0.8"
   },
   "devDependencies": {
+    "elasticsearch": "^15.0.0",
     "nodemon": "^1.17.4"
   }
 }
